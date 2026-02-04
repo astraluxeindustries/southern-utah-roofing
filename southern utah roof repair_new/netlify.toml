@@ -1,0 +1,4 @@
+[build]
+  base = "southern utah roof repair_new"
+  command = "npm run build"
+  publish = "dist"
