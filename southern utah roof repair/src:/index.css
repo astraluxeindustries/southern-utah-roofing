@@ -1,0 +1,29 @@
+body {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #cfb997; 
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b45309; 
+}
+
+/* Utility for pattern backgrounds */
+.pattern-grid-lg {
+  background-image: radial-gradient(circle, #000 1px, transparent 1px);
+  background-size: 20px 20px;
+}
