@@ -1,4 +1,4 @@
 [build]
-  base = "southern utah roof repair_new"
+  base = "southern-utah-roof-repair_new"
   command = "npm install && npm run build"
   publish = "dist"
